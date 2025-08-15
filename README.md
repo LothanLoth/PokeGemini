@@ -1,12 +1,6 @@
 title: "PokeGemini 🐾⚡"
-cover_image: "https://github.com/user-attachments/assets/5bdc42de-e5fd-4200-bb8d-e001cc5166f7"
-badges:
-  - "https://img.shields.io/github/license/seu-usuario/pokegemini"
-  - "https://img.shields.io/badge/Python-3.x-blue"
-  - "https://img.shields.io/badge/Flask-2.x-lightgrey"
-  - "https://img.shields.io/badge/status-em%20desenvolvimento-yellow"
 description: |
-  Um chatbot multimodal inspirado no universo Pokémon, desenvolvido com Flask, Google Gemini API e PokeAPI.
+  PokeGemini é um chatbot multimodal inspirado no universo Pokémon, desenvolvido com Flask, Google Gemini API e PokeAPI.
   Ele interpreta mensagens, identifica o Pokémon mencionado, adapta seu tom de resposta conforme o sentimento do usuário
   e mantém a conversa imersiva como se fosse o próprio Professor Carvalho.
 features:
@@ -63,7 +57,7 @@ setup_instructions:
     command: |
       http://127.0.0.1:5000
 demo_section:
-  description: "Adicione aqui um print ou GIF mostrando o chatbot em funcionamento"
+  description: "Demonstração do chatbot em funcionamento"
   example_image: "static/img/demo.png"
 license:
   text: "Este projeto é de uso livre para fins educacionais e de portfólio"
