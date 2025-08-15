@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/Pokeball.png') }}" type="image/x-icon">
+    <title>PokeGemini</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/index.css') }}"
+    />
+  </head>
+  <body>
+    <header class="cabecalho container">
+      <h1 style="  text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black,
+    -2px  0px 0 black,
+     2px  0px 0 black,
+     0px -2px 0 black,
+     0px  2px 0 black;">PokeGemini</h1>
+      <div class="cabecalho__acoes"></div>
+    </header>
+    <main class="main">
+      <section class="chat container" id="chat">
+        <p class="chat__bolha chat__bolha--bot">
+          Hello! I am Professor Samuel Carvalho, how can I help you?
+        </p>
+      </section>
+      <section class="entrada container">
+        <div class="entrada__container">
+          <button id="mais_arquivo" aria-label="More options button">
+            <i class="icone icone--mais-opcoes"></i>
+          </button>
+          <input
+            type="text"
+            class="entrada__input"
+            placeholder="Send a message"
+            id="input"
+          />
+          <button aria-label="Send button" id="botao-enviar">
+            <i class="icone icone--enviar-mensagem"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+  </script>
+</html>
